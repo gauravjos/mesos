@@ -8,7 +8,7 @@ sudo mkdir /etc/mesos-dns
 sudo vi /etc/mesos-dns/config.json
 config.json
 
-# replace zk:/10.16.67.152 with IP of your mesos master
+#### replace zk:/10.16.67.152 with IP of your mesos master
 {
   "zk": "zk://10.16.67.152:2181/mesos",
   "refreshSeconds": 60,
